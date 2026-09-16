@@ -1,0 +1,313 @@
+version: "0.1"
+language: "sr"
+learner_native_language: "ru"
+level: "A1"
+
+title: "Serbian A1 for Russian Speakers"
+
+modules:
+
+  - id: foundations
+    title: "Foundations"
+    topics:
+      - id: latin_alphabet
+        title: "Serbian Latin alphabet"
+
+      - id: cyrillic_alphabet
+        title: "Serbian Cyrillic alphabet"
+
+      - id: pronunciation
+        title: "Sounds and pronunciation"
+
+      - id: reading_rules
+        title: "Reading and spelling rules"
+
+      - id: first_words
+        title: "First Serbian words and expressions"
+
+      - id: greetings
+        title: "Greetings and basic polite phrases"
+
+
+  - id: first_conversations
+    title: "First conversations"
+    topics:
+      - id: introductions
+        title: "Introducing yourself"
+
+      - id: personal_information
+        title: "Name, country, city and language"
+
+      - id: personal_pronouns
+        title: "Personal pronouns"
+
+      - id: biti_present
+        title: "Verb biti in the present tense"
+
+      - id: basic_sentence
+        title: "Basic Serbian sentence structure"
+
+      - id: negation
+        title: "Basic negation"
+
+      - id: basic_questions
+        title: "Basic questions"
+
+      - id: question_words
+        title: "Ko, šta, gde, odakle, kako"
+
+      - id: numbers_basic
+        title: "Numbers"
+
+
+  - id: nouns_and_people
+    title: "People and things"
+    topics:
+      - id: noun_gender
+        title: "Gender of nouns"
+
+      - id: noun_number
+        title: "Singular and plural"
+
+      - id: nominative
+        title: "Nominative case"
+
+      - id: demonstratives
+        title: "Ovo, ovaj, ova, ovo"
+
+      - id: possessives
+        title: "Possessive pronouns"
+
+      - id: family
+        title: "Family"
+
+      - id: professions
+        title: "Professions and occupations"
+
+      - id: describing_people
+        title: "Basic descriptions of people"
+
+
+  - id: present_tense
+    title: "Actions and everyday life"
+    topics:
+      - id: infinitive
+        title: "Infinitive"
+
+      - id: present_tense
+        title: "Present tense"
+
+      - id: present_conjugation
+        title: "Common present-tense conjugation patterns"
+
+      - id: imati
+        title: "Verb imati"
+
+      - id: hteti
+        title: "Verb hteti"
+
+      - id: moci
+        title: "Verb moći"
+
+      - id: morati
+        title: "Verb morati"
+
+      - id: daily_routine
+        title: "Daily activities"
+
+      - id: time
+        title: "Telling time"
+
+      - id: days_and_dates
+        title: "Days, dates and parts of the day"
+
+      - id: frequency
+        title: "Frequency and basic adverbs"
+
+
+  - id: objects_and_actions
+    title: "Objects and actions"
+    topics:
+      - id: accusative_intro
+        title: "Accusative case"
+
+      - id: direct_object
+        title: "Accusative as a direct object"
+
+      - id: food_and_drinks
+        title: "Food and drinks"
+
+      - id: shopping
+        title: "Shopping and prices"
+
+      - id: quantities
+        title: "Basic quantities and measures"
+
+      - id: restaurant
+        title: "Cafe and restaurant"
+
+      - id: polite_requests
+        title: "Requests and polite expressions"
+
+
+  - id: location_and_movement
+    title: "Location and movement"
+    topics:
+      - id: places
+        title: "Places in the city"
+
+      - id: movement_verbs
+        title: "Basic verbs of movement"
+
+      - id: accusative_direction
+        title: "Direction: u/na + accusative"
+
+      - id: locative_intro
+        title: "Locative case"
+
+      - id: location
+        title: "Location: u/na + locative"
+
+      - id: gde_kuda
+        title: "Gde and kuda"
+
+      - id: transport
+        title: "Transport"
+
+      - id: directions
+        title: "Asking for and understanding directions"
+
+
+  - id: home
+    title: "Home and everyday environment"
+    topics:
+      - id: home_vocabulary
+        title: "Home, rooms and furniture"
+
+      - id: describing_location
+        title: "Describing where things are"
+
+      - id: prepositions_place
+        title: "Basic prepositions of place"
+
+      - id: adjectives
+        title: "Basic adjectives"
+
+      - id: adjective_agreement
+        title: "Basic adjective agreement"
+
+      - id: possession
+        title: "Expressing possession"
+
+
+  - id: cases_everyday
+    title: "Cases in everyday Serbian"
+    topics:
+      - id: genitive_intro
+        title: "Genitive case"
+
+      - id: genitive_basic_uses
+        title: "Basic uses of the genitive"
+
+      - id: dative_intro
+        title: "Dative case"
+
+      - id: dative_basic_uses
+        title: "Basic uses of the dative"
+
+      - id: instrumental_intro
+        title: "Instrumental case"
+
+      - id: instrumental_basic_uses
+        title: "Basic uses of the instrumental"
+
+      - id: cases_contrast
+        title: "Basic case contrasts"
+
+
+  - id: past
+    title: "Talking about the past"
+    topics:
+      - id: perfect_tense
+        title: "Perfect tense"
+
+      - id: past_gender
+        title: "Gender and number in the perfect tense"
+
+      - id: past_negation
+        title: "Negation in the past"
+
+      - id: past_questions
+        title: "Questions about past events"
+
+      - id: yesterday
+        title: "Talking about yesterday and recent events"
+
+
+  - id: future
+    title: "Plans and the future"
+    topics:
+      - id: future_tense
+        title: "Future tense"
+
+      - id: future_negation
+        title: "Future tense negation"
+
+      - id: future_questions
+        title: "Questions about plans"
+
+      - id: plans
+        title: "Plans and arrangements"
+
+
+  - id: practical_serbian
+    title: "Practical Serbian"
+    topics:
+      - id: health
+        title: "Health and basic symptoms"
+
+      - id: pharmacy
+        title: "At the pharmacy"
+
+      - id: appointments
+        title: "Making appointments"
+
+      - id: services
+        title: "Everyday services"
+
+      - id: apartment
+        title: "Apartment and utilities"
+
+      - id: documents
+        title: "Basic administrative situations"
+
+      - id: phone_messages
+        title: "Short messages and everyday written communication"
+
+      - id: social_interaction
+        title: "Basic social interaction"
+
+
+  - id: integration
+    title: "A1 integration"
+    topics:
+      - id: reading
+        title: "Reading short everyday texts"
+
+      - id: listening
+        title: "Understanding simple spoken Serbian"
+
+      - id: writing
+        title: "Writing short messages"
+
+      - id: conversation
+        title: "Everyday conversation"
+
+      - id: mixed_grammar
+        title: "Integrated grammar practice"
+
+      - id: final_review
+        title: "A1 review"
+
+      - id: final_assessment
+        title: "A1 final assessment"
