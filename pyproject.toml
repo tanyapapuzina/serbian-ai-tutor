@@ -24,11 +24,13 @@ dev = [
     "pytest-asyncio>=0.23,<1.0",
     "ruff>=0.6,<1.0",
     "mypy>=1.11,<2.0",
+    "types-PyYAML>=6.0,<7.0",
 ]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
+pythonpath = ["."]
 
 [tool.ruff]
 line-length = 100
