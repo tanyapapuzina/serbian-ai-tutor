@@ -45,4 +45,4 @@ def test_settings_require_secret_values(monkeypatch: pytest.MonkeyPatch) -> None
     monkeypatch.delenv("OPENROUTER_API_KEY", raising=False)
 
     with pytest.raises(ValidationError):
-        Settings()
+        Settings(_env_file=None)
